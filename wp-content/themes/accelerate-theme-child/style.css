@@ -1,0 +1,398 @@
+
+/*
+ Theme Name:   Accelerate Theme Child
+ Theme URI:    http://example.com/accelerate-theme-child/
+ Description:  Accelerate Child Theme - Accelerate
+ Author:       Your Name!
+ Author URI:   http://example.com
+ Template:     accelerate-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+
+@import url("../accelerate-theme/style.css");
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    margin: 0 0 1em;
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+#masthead nav ul li{
+	float: left;
+	margin: 0 10px;
+}
+
+.button {
+	background: none repeat scroll 0 0 #45ac9d;
+}
+
+/* blog post on homepage*/
+
+
+
+.blog-post {
+	width: 50%;
+	float: left;
+	padding-right: 50px;
+	margin-bottom: 2em;
+	margin-top: 10px;
+	
+}
+
+.blog-post h4 {
+    font: 300 15px 'Montserrat';
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    padding: 0;
+    text-align:  left;
+    
+}
+.blog-post h2 {
+	text-align:  left;
+	margin-bottom: 15px;
+	margin-top: 10px;
+
+}
+.blog-post p{
+	text-align: left;
+}
+.blog-post .read-more-link {
+	font: 300 15px 'Montserrat';
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 300;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+/*twitter module*/
+
+ ul#secondary.widget-area {
+	width: 40%;
+	float: right;
+	margin: 0 15px;
+	padding-right: 50px;
+	margin-bottom: 2em;
+	position: relative;
+	left:5%;
+	top:-16em;
+
+}
+
+ul #secondary.widget-area{
+	float: left;
+	
+}
+#secondary.widget-area ul{
+	
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+}
+
+
+#secondary.widget-area h3{		
+	margin-top: .95em;
+	font-size: 1.25em;
+	font-style: bold;
+}
+
+
+ div.sidebar-content h5{
+ 	
+	color: 	#A8A8A8;
+    position: relative;
+    top: -26.9em;
+    right: 36.2%;
+    float: right;
+    font-size: .88em;
+    font-weight: 500;
+    
+}
+div #follow-us-link  {
+	position: relative;
+    top: -4.6em;
+    float: left;
+    font-size: .88em;
+    font-family: 'Montserrat';
+	font-weight: 300;
+	color: #45ac9d;
+	text-transform: uppercase;
+	
+}
+
+aside#pi_simpletwittertweets-2.widget.PI_SimpleTwitterTweets{
+	position: relative;
+	top: -4.7em;
+}
+
+
+/* Case Studies*/
+article.case-study{
+	margin: 0 40px 0 0;
+}
+
+aside.case-study-sidebar{
+	float: left;
+    width: 300px;
+    margin: 0 40px 0 -40px; 
+}
+
+div.case-study-images{
+	float:left;
+	width: 606px;
+	height:auto;
+}
+div.case-study-images img {
+	width: 100%;
+	height: auto;
+}
+
+div.case-study-images img{
+	margin-bottom: 40px;
+	
+}
+
+/* featured work*/
+
+.featured-work .site-content {
+ 	display: block;
+    text-align: center;
+    
+}
+
+.featured-work .site-content h3{
+	   
+	   font-size: 14px;
+}
+
+.site-content li{
+	display: block;
+	list-style-type: none;
+}
+
+.homepage-featured-work{
+	   display: -webkit-box;
+	   display: -moz-box;
+	   display: -ms-flexbox;
+	   display: -webkit-flex;
+	   display: flex;
+	   flex-flow: row nowrap;
+	   justify-content: space-between;
+
+}
+
+
+/*Archive-case_studies*/
+
+aside.case-study-sidebar h5{
+		color: gray;
+		font-size: 11px;
+}
+
+aside.case-study-sidebar a{
+		color: #45ac9d;
+}
+
+
+/*contact form*/
+
+.contact-form{
+		margin: 0 90px;
+		width: 60%;
+}
+ .contact-form .nf-field-label label {
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+
+ .main-content h2{
+	font-weight: 200;
+	font-style: bold;
+	color: #000;
+}
+
+
+.main-content p{
+	margin-bottom: 50px;
+	color: #3b3c3d;
+	font-size: .80em;
+}
+
+.field-wrap button, .field-wrap input[type=button], .field-wrap input[type=submit] {
+    width: auto;
+    float: right;
+}
+
+.field-wrap button, .field-wrap input[type=button], .field-wrap input[type=submit] {
+    width: auto;
+    background-color: #45ac9d;
+}
+
+/* about-page*/
+
+.about-page   {
+    background: url("img/half-taxi.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    margin: 0 0 1em;
+}
+
+.about-page  h2{
+	color: #fff;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top:140px;
+    font-size: 1.5em;
+    font-weight: 100px;
+    line-height: 1.2em;
+}
+.about-page h2{
+	position: relative;
+	bottom: 90px;
+}
+
+
+/* About Page Services Section*/
+
+.site-content .services h4{
+
+}
+
+.site-content .services-intro {
+	text-align: center;
+	margin-top: 8%;
+	margin-bottom: 5%;
+}
+
+.service-types{
+	width: 100%;
+	margin: 0;
+	overflow: auto;
+	margin-bottom: 2em;
+}
+
+.service-types figure{
+	display:flex;
+	align-items: center;
+ 	float: left;
+ 	margin-right: 10%;
+ 	margin-top: 5%;
+ 	margin-bottom: 0;
+ }
+
+.service-types:nth-child(even) figure{
+		 float: right;
+ }
+
+  .service-types h2 a{
+ 		font-weight: 400;		
+ }
+
+  .service-types:nth-child(even) h2 a{
+  
+		margin-bottom: 0;
+		text-align: left;		
+}
+
+	.service-types .service-content {
+ 		float:left;
+ 		
+ 		width: 60%;
+ 		margin-top: 1%;
+ 		margin-left: 0;
+ 		
+ 		padding:0;
+ 		text-align: left;
+ }
+
+.service-types:nth-child(even) p{
+		
+		text-align: left;
+}
+ 
+/* Blog Page Sidebar sign-up*/
+
+
+div.mc4wp-form-fields{
+	display:flex;
+	flex-direction: row-reverse;
+	
+	
+}
+div.mc4wp-form-fields{
+	position: relative;
+	bottom: 1.5em;
+	float:left;
+}
+
+#mc4wp-form-1 div p input[type="button"], input[type="submit"]{
+	background-color: #45ac9d;
+	align-content: center;
+	padding-top: .65em;
+}
+
+
+/* 404 */
+
+#main-content .fourofour-container{
+	display: flex;
+	justify-content: center;
+	background-color: black;
+}
+
+#main-content .fourofour-container{
+	background: url("img/mini.png") no-repeat scroll  center / cover ;
+    margin: 0 0 1em;
+    height: 900px;
+}
+#post-0 h1{
+	color: #ffd9b3;
+	font-size: 4em;
+  	z-index: 10;
+  	position: absolute;
+  	font-weight: bold;
+  	left: 150px;
+  	top: 100px;
+}
+
+#post-0 p{
+	color: #ffd9b3;
+	font-size: 2.1em;
+  	z-index: 9;
+  	position: absolute;
+  	font-weight: bold;
+  	left: 150px;
+  	top: 320px;
+  }
+div .search-form{
+	position: absolute;
+	top: 500px;
+	left: 150px;
+	width: 50px;
+}
+
+
+/* footer*/
+.site-footer {
+	border-top: 1px solid black;
+}
+
+.site-footer ul{
+	position:absolute;
+	right: 12%;
+}
+
+
+
